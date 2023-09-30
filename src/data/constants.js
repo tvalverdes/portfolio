@@ -191,7 +191,7 @@ export const projects = [
     tags: ['Vercel', 'Eslint', 'NodeJs', 'NextJs', 'React Js', 'Tailwind CSS'],
     category: 'web app',
     github: 'https://github.com/tvalverdes/gamenext',
-    webapp: 'https://gamenext-eight.vercel.app/',
+    webapp: 'https://gamenext.tvalverde.tech',
   },
   {
     id: 1,
