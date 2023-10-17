@@ -6,6 +6,7 @@ import { Snackbar } from '@mui/material'
 import MuiAlert from '@mui/material/Alert'
 import ReCAPTCHA from 'react-google-recaptcha'
 import { validateEmail, validateName } from '../../utils/error.handler'
+import zIndex from '@mui/material/styles/zIndex'
 
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />
@@ -165,7 +166,7 @@ const Contact = () => {
     if (!captcha || emailError || nameError) {
       setOpen(true)
     } else {
-      emailjs
+      /* emailjs
         .sendForm(
           'service_ejf7g0n',
           'template_arpow6g',
@@ -175,12 +176,14 @@ const Contact = () => {
         .then(
           (result) => {
             setOpen(true)
+            setUserName('')
+            setUserEmail('')
             form.current.reset()
           },
           (error) => {
             console.log(error.text)
           }
-        )
+        ) */
     }
   }
 
