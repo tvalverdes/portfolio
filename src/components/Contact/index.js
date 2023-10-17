@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 import { Snackbar } from '@mui/material'
 import MuiAlert from '@mui/material/Alert'
 import ReCAPTCHA from 'react-google-recaptcha'
@@ -134,6 +135,7 @@ const ContactButton = styled.input`
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
+  cursor: pointer;
   border: none;
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
@@ -164,7 +166,7 @@ const Contact = () => {
     if (!captcha || emailError || nameError) {
       setOpen(true)
     } else {
-      /* emailjs
+      emailjs
         .sendForm(
           'service_ejf7g0n',
           'template_arpow6g',
@@ -181,7 +183,7 @@ const Contact = () => {
           (error) => {
             console.log(error.text)
           }
-        ) */
+        )
     }
   }
 
