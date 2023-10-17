@@ -169,7 +169,7 @@ export const education = [
     school: 'Universidad Privada Antenor Orrego',
     date: '2016 - 2023',
     grade: 'Bachiller',
-    desc: 'Soy bachiller en la carrera de Ingeniería de Computación y Sistemas, en la Universidad Privada Antenor Orrego, donde he aprendido a desarrollar software de calidad, con las mejores prácticas y metodologías de desarrollo. Además, aprendí a trabajar en equipo y con metodologías ágiles',
+    desc: 'Ingeniero de Computación y Sistemas, en la Universidad Privada Antenor Orrego, donde he aprendido a desarrollar software de calidad, con las mejores prácticas y metodologías de desarrollo. Además, aprendí a trabajar en equipo y con metodologías ágiles',
     degree: 'Ingeniería de Computación y Sistemas',
   },
   {

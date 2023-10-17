@@ -115,15 +115,6 @@ const Date = styled.div`
   }
 `
 
-const Grade = styled.div`
-  font-size: 14px;
-  font-weight: 500;
-  color: ${({ theme }) => theme.text_secondary + 99};
-  @media only screen and (max-width: 768px) {
-    font-size: 12px;
-  }
-`
-
 const EducationCard = ({ education }) => {
   return (
     <Card>
@@ -135,10 +126,6 @@ const EducationCard = ({ education }) => {
           <Date>{education.date}</Date>
         </Body>
       </Top>
-      <Grade>
-        <b>Grado: </b>
-        {education.grade}
-      </Grade>
       <Description>
         <Span>{education.desc}</Span>
       </Description>

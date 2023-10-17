@@ -1,12 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useRef } from 'react'
-import emailjs from '@emailjs/browser'
 import { Snackbar } from '@mui/material'
 import MuiAlert from '@mui/material/Alert'
 import ReCAPTCHA from 'react-google-recaptcha'
 import { validateEmail, validateName } from '../../utils/error.handler'
-import zIndex from '@mui/material/styles/zIndex'
 
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />
