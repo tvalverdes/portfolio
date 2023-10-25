@@ -195,6 +195,26 @@ export const projects = [
   },
   {
     id: 1,
+    title: 'Notly',
+    date: 'Oct 2023',
+    description:
+      '(En desarrollo) Web creada para el almacenamiento de notas, permitiendo crear, editar y eliminar notas. Con autenticación de usuario para proteger y segmentar las notas. Utilicé MongoDB como base de datos, React para el desarrollo front end y NodeJS|Express para el back end.',
+    image: 'notly.webp',
+    tags: [
+      'ReactJS',
+      'Chakra UI',
+      'NodeJS',
+      'Express',
+      'Tailwind CSS',
+      'MongoDB',
+      'JWT',
+      'Redux',
+    ],
+    category: 'web app',
+    webapp: 'https://notly.tvalverde.tech',
+  },
+  {
+    id: 2,
     title: 'Pasión por las Finanzas',
     date: 'Nov 2021',
     description:
@@ -213,7 +233,7 @@ export const projects = [
     webapp: 'https://pasionporlasfinanzas.com',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Transportes y Servicios Valso',
     date: 'Ago 2022',
     description:
@@ -224,7 +244,7 @@ export const projects = [
     webapp: 'https:transportesvalso.com',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Sistema de Ventas',
     date: 'Oct 2020',
     description:
