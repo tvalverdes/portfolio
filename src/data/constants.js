@@ -198,7 +198,7 @@ export const projects = [
     title: 'Notly',
     date: 'Oct 2023',
     description:
-      '(En desarrollo) Web creada para el almacenamiento de notas, permitiendo crear, editar y eliminar notas. Con autenticación de usuario para proteger y segmentar las notas. Utilicé MongoDB como base de datos, React para el desarrollo front end y NodeJS|Express para el back end.',
+      'Web creada para el almacenamiento de notas, permitiendo crear, editar y eliminar notas. Con autenticación de usuario para proteger y segmentar las notas. Utilicé MongoDB como base de datos, React para el desarrollo front end y NodeJS|Express para el back end.',
     image: 'notly.webp',
     tags: [
       'ReactJS',
@@ -211,6 +211,7 @@ export const projects = [
       'Redux',
     ],
     category: 'web app',
+    github: 'https://github.com/stars/tvalverdes/lists/notes',
     webapp: 'https://notly.tvalverde.tech',
   },
   {
