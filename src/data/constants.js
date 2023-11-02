@@ -242,7 +242,7 @@ export const projects = [
     image: '/valso.webp',
     tags: ['Wordpress', 'HTML', 'CSS', 'JavaScript'],
     category: 'web app',
-    webapp: 'https:transportesvalso.com',
+    webapp: 'https://transportesvalso.com',
   },
   {
     id: 4,
