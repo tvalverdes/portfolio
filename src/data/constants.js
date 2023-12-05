@@ -5,7 +5,7 @@ export const Bio = {
     'Apasionado por la tecnología y el desarrollo de software, con experiencia en el desarrollo de aplicaciones web. Me gusta aprender nuevas tecnologías y trabajar en equipo para lograr los objetivos propuestos.',
   github: 'https://github.com/tvalverdes',
   resume:
-    'https://drive.google.com/file/d/10Uz5UArcr2Z2LtcRPaMvvyFK-V6mgIxg/view?usp=sharing',
+    'https://drive.google.com/file/d/13olZ74G29s1P4Q0rhIDukke0Lpx4yWkY/view?usp=sharing',
   linkedin: 'https://www.linkedin.com/in/tvalverdes',
 }
 
