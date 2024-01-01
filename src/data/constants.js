@@ -5,7 +5,7 @@ export const Bio = {
     'Apasionado por la tecnología y el desarrollo de software, con experiencia en el desarrollo de aplicaciones web. Me gusta aprender nuevas tecnologías y trabajar en equipo para lograr los objetivos propuestos.',
   github: 'https://github.com/tvalverdes',
   resume:
-    'https://drive.google.com/file/d/10Uz5UArcr2Z2LtcRPaMvvyFK-V6mgIxg/view?usp=sharing',
+    'https://drive.google.com/file/d/1mj-7uJTuBmu1zjrN3lMNY_SvkMvSaEKK/view?usp=sharing',
   linkedin: 'https://www.linkedin.com/in/tvalverdes',
 }
 
@@ -92,7 +92,7 @@ export const skills = [
       {
         name: 'Git',
         image:
-          'https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667',
+          'https://victorroblesweb.es/wp-content/uploads/2018/04/git.png',
       },
       {
         name: 'GitHub',
@@ -107,7 +107,7 @@ export const skills = [
       {
         name: 'Postman',
         image:
-          'https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667',
+          'https://www.returngis.net/wp-content/uploads/2021/06/New-postman.png',
       },
       {
         name: 'Adobe XD',
@@ -117,7 +117,7 @@ export const skills = [
       {
         name: 'Figma',
         image:
-          'https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667',
+          'https://cdn2.downdetector.com/static/uploads/logo/figma2.png',
       },
       {
         name: 'Bizagi',
@@ -135,31 +135,23 @@ export const experiences = [
     company: 'Inversiones Nashimat S. A. C',
     date: 'Abril - Julio 2023',
     desc: 'Automatización de Registros y Mejora en la Gestión de la Información',
-    skills: ['PHP', 'FTP', 'Figma', 'Bootstrap'],
+    skills: ['PHP', 'React', 'Figma', 'Bootstrap'],
   },
   {
     id: 1,
     role: 'Desarrollado Web',
-    company: 'Pasión por las Finanzas',
-    date: 'Noviembre 2021 - Marzo 2023',
-    desc: 'Creación de web para empresa del sector financiero.',
+    company: 'Transportes y Servicios Valso',
+    date: 'Mayo 2022 - Marzo 2023',
+    desc: 'Creación de web para empresa del sector financiero y transporte de carga.',
     skills: [
-      'ReactJS',
       'NextJS',
       'Material UI',
       'HTML',
       'CSS',
-      'JavaScript',
-      'Wordpress',
+      'Tailwind CSS',
+      'Typescript',
+      'PHP'
     ],
-  },
-  {
-    id: 2,
-    role: 'Desarrollador Web',
-    company: 'Transportes Valso',
-    date: 'Agosto 2022',
-    desc: 'Construcción de un sitio web para una de transporte de carga.',
-    skills: ['Wordpress'],
   },
 ]
 
@@ -219,7 +211,7 @@ export const projects = [
     title: 'Pasión por las Finanzas',
     date: 'Nov 2021',
     description:
-      'Web creada para el cliente Pasión por las Finanzas, empresa del sector financiero, donde se muestra información de la empresa, servicios, blog y contacto. Se utilizó Wordpress como CMS y ReactJS para el desarrollo del tema. Además de un apartado de reserva integrado con la pasarela de pago Izipay.',
+      'Web creada para el cliente Pasión por las Finanzas, empresa del sector financiero, donde se muestra información de la empresa, servicios, blog y contacto. Utilicé NextJS como framework de React.js. Además de un apartado de reserva integrado con la pasarela de pago Izipay.',
     image: 'pf.webp',
     tags: [
       'ReactJS',
@@ -228,10 +220,11 @@ export const projects = [
       'HTML',
       'CSS',
       'JavaScript',
-      'Wordpress',
+      'PHP',
     ],
     category: 'web app',
-    webapp: 'https://pasionporlasfinanzas.com',
+    webapp: 'https://pasionporlasfinanzas.tvalverde.tech',
+    github: 'https://github.com/tvalverdes/pf-main',
   },
   {
     id: 3,
