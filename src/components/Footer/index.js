@@ -1,5 +1,5 @@
-import styled from 'styled-components'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import styled from 'styled-components'
 import { Bio } from '../../data/constants'
 
 const FooterContainer = styled.div`
@@ -98,7 +98,7 @@ function Footer() {
             <LinkedInIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2023 Tyrone Valverde</Copyright>
+        <Copyright>&copy; {new Date().getFullYear()} Tyrone Valverde</Copyright>
       </FooterWrapper>
     </FooterContainer>
   )
